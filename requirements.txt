@@ -1,0 +1,8 @@
+accelerate==0.17.1
+diffusers==0.18.1
+einops==0.6.1
+Pillow==9.4.0
+torch==1.13.1+cu117
+torchvision==0.14.1+cu117
+tqdm==4.65.0
+spacy
