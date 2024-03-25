@@ -4,7 +4,7 @@ This repository contains the code and data for the following paper:
 [Exposing Text-Image Inconsistency Using Diffusion Models](https://openreview.net/forum?id=Ny150AblPu) (ICLR 2024)
 
 # Dataset
-We are still cleaning the dataset for public use, it will be released in the next few weeks
+Please download the dataset here: [[Google Drive]](https://drive.google.com/file/d/1rbVMGVz_cdE5KjIUvAE8X0DosoX2uEf2/view?usp=drive_link)
 
 # Installation
 We tested on the environment of torch 1.13.1 with a cuda version of 11.7
@@ -30,7 +30,7 @@ If you find our code or dataset useful, please cite:
 ```
 @inproceedings{
 huang2024exposing,
-title={{EXPOSING} {TEXT}-{IMAGE} {INCONSISTENCY} {USING} {DIFFUSION} {MODELS}},
+title={Exposing Text-Image Inconsistency Using Diffusion Models},
 author={Mingzhen Huang and Shan Jia and Zhou Zhou and Yan Ju and Jialing Cai and Siwei Lyu},
 booktitle={The Twelfth International Conference on Learning Representations},
 year={2024},
