@@ -4,7 +4,7 @@ This repository contains the code and data for the following paper:
 [Exposing Text-Image Inconsistency Using Diffusion Models](https://openreview.net/forum?id=Ny150AblPu) (ICLR 2024)
 
 # Dataset
-Please download the dataset here: [[Google Drive]](https://drive.google.com/file/d/1rbVMGVz_cdE5KjIUvAE8X0DosoX2uEf2/view?usp=drive_link).
+Please download the dataset here: [[Google Drive]](https://drive.google.com/file/d/1qHcuRDTUbpBwx2doqqOoPJoZp95OzP5A/view?usp=drive_link).
 When seeking permission, kindly provide your details along with the intended purpose for using this dataset. Please be aware that our dataset is exclusively intended for research purposes.
 
 # Installation
