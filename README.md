@@ -19,7 +19,7 @@ Please check the provided jupyter notebook for details, or you can easily run th
 import torch
 from PIL import Image
 from pipeline import DTIILPipeline
-im = Image.open('./asset/exampe.jpg').resize((512,512)).convert("RGB")git a
+im = Image.open('./asset/exampe.jpg').resize((512,512)).convert("RGB")
 model_id = "runwayml/stable-diffusion-v1-5"
 pipe = DTIILPipeline.from_pretrained(model_id, safety_checker=None)
 mask = pipe(prompt, im)['final_mask']
@@ -30,11 +30,10 @@ mask = pipe(prompt, im)['final_mask']
 If you find our code or dataset useful, please cite:
 ```
 @inproceedings{
-huang2024exposing,
-title={Exposing Text-Image Inconsistency Using Diffusion Models},
-author={Mingzhen Huang and Shan Jia and Zhou Zhou and Yan Ju and Jialing Cai and Siwei Lyu},
-booktitle={The Twelfth International Conference on Learning Representations},
-year={2024},
-url={https://openreview.net/forum?id=Ny150AblPu}
+  huang2024exposing,
+  title={Exposing Text-Image Inconsistency Using Diffusion Models},
+  author={Mingzhen Huang and Shan Jia and Zhou Zhou and Yan Ju and Jialing Cai and Siwei Lyu},
+  booktitle={The Twelfth International Conference on Learning Representations},
+  year={2024},
 }
 ```
